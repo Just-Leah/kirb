@@ -1,29 +1,32 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
+  "id": "kirbpoyo",
+  "version": "${0.1}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Kirb",
+  "description": "Poyo",
   "authors": [
-    "Me!"
+    "Stonewall0210"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "github.com/Stonewall0210",
+    "sources": "https://github.com/Stonewall0210/kirb"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/kirbpoyo/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "io.github.Stonewall0210.kirb.KirbPoyo"
+    ],
+    "client": [
+      "io.github.Stonewall0210.kirb.KirbPoyoClient"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+
   ],
 
   "depends": {
